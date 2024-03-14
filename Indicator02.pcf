@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Sep 25 23:31:34 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "sys_clk" LOCATE = SITE "A10" LEVEL 1;
+COMP "led_1" LOCATE = SITE "T9" LEVEL 1;
+COMP "INDoPower" LOCATE = SITE "C8" LEVEL 1;
+COMP "led_2" LOCATE = SITE "R9" LEVEL 1;
+COMP "sys_rst_n" LOCATE = SITE "R7" LEVEL 1;
+COMP "o_A" LOCATE = SITE "E11" LEVEL 1;
+COMP "o_B" LOCATE = SITE "E10" LEVEL 1;
+COMP "o_C" LOCATE = SITE "E7" LEVEL 1;
+COMP "o_D" LOCATE = SITE "F7" LEVEL 1;
+COMP "o_E" LOCATE = SITE "B6" LEVEL 1;
+COMP "o_F" LOCATE = SITE "F9" LEVEL 1;
+COMP "o_G" LOCATE = SITE "B5" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,53 @@
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 Indicator02.ngc Indicator02.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Indicator02_map.ncd Indicator02.ngd Indicator02.pcf 
+par -w -intstyle ise -ol high -mt off Indicator02_map.ncd Indicator02.ncd Indicator02.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Indicator02.twx Indicator02.ncd -o Indicator02.twr Indicator02.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f Indicator02.ut Indicator02.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 Indicator02.ngc Indicator02.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Indicator02_map.ncd Indicator02.ngd Indicator02.pcf 
+par -w -intstyle ise -ol high -mt off Indicator02_map.ncd Indicator02.ncd Indicator02.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Indicator02.twx Indicator02.ncd -o Indicator02.twr Indicator02.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f Indicator02.ut Indicator02.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 Indicator02.ngc Indicator02.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Indicator02_map.ncd Indicator02.ngd Indicator02.pcf 
+par -w -intstyle ise -ol high -mt off Indicator02_map.ncd Indicator02.ncd Indicator02.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Indicator02.twx Indicator02.ncd -o Indicator02.twr Indicator02.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f Indicator02.ut Indicator02.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 Indicator02.ngc Indicator02.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Indicator02_map.ncd Indicator02.ngd Indicator02.pcf 
+par -w -intstyle ise -ol high -mt off Indicator02_map.ncd Indicator02.ncd Indicator02.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Indicator02.twx Indicator02.ncd -o Indicator02.twr Indicator02.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f Indicator02.ut Indicator02.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/DELETE/Test-INDIC-VHDL/Indicator02.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 Indicator02.ngc Indicator02.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Indicator02_map.ncd Indicator02.ngd Indicator02.pcf 
+par -w -intstyle ise -ol high -mt off Indicator02_map.ncd Indicator02.ncd Indicator02.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Indicator02.twx Indicator02.ncd -o Indicator02.twr Indicator02.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f Indicator02.ut Indicator02.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/Indicator02.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 Indicator02.ngc Indicator02.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Indicator02_map.ncd Indicator02.ngd Indicator02.pcf 
+par -w -intstyle ise -ol high -mt off Indicator02_map.ncd Indicator02.ncd Indicator02.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Indicator02.twx Indicator02.ncd -o Indicator02.twr Indicator02.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f Indicator02.ut Indicator02.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/Indicator02.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 Indicator02.ngc Indicator02.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Indicator02_map.ncd Indicator02.ngd Indicator02.pcf 
+par -w -intstyle ise -ol high -mt off Indicator02_map.ncd Indicator02.ncd Indicator02.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Indicator02.twx Indicator02.ncd -o Indicator02.twr Indicator02.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f Indicator02.ut Indicator02.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/Indicator02.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/Indicator02.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 Indicator02.ngc Indicator02.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Indicator02_map.ncd Indicator02.ngd Indicator02.pcf 
+par -w -intstyle ise -ol high -mt off Indicator02_map.ncd Indicator02.ncd Indicator02.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Indicator02.twx Indicator02.ncd -o Indicator02.twr Indicator02.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f Indicator02.ut Indicator02.ncd 

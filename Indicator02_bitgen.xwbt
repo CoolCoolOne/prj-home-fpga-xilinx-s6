@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\FPGA\ISE_14_7\ISE_projs\Test-INDIC-VHDL-secunds_counter\Test-INDIC-VHDL\Indicator02.ncd
+OUTFILE=C:\FPGA\ISE_14_7\ISE_projs\Test-INDIC-VHDL-secunds_counter\Test-INDIC-VHDL\Indicator02.bit
+FAMILY=Spartan6
+PART=xc6slx16-2ftg256
+WORKINGDIR=C:\FPGA\ISE_14_7\ISE_projs\Test-INDIC-VHDL-secunds_counter\Test-INDIC-VHDL
+LICENSE=WebPack
+USER_INFO=__0_0_0
