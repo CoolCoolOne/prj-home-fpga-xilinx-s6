@@ -1,0 +1,322 @@
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 
+xst -intstyle ise -ifn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.xst" -ofn "C:/FPGA/ISE_14_7/ISE_projs/Test-INDIC-VHDL-secunds_counter/Test-INDIC-VHDL/melt01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc sp6.ucf -p xc6slx16-ftg256-2 melt01.ngc melt01.ngd  
+map -intstyle ise -p xc6slx16-ftg256-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o melt01_map.ncd melt01.ngd melt01.pcf 
+par -w -intstyle ise -ol high -mt off melt01_map.ncd melt01.ncd melt01.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf sp6.ucf 
+bitgen -intstyle ise -f melt01.ut melt01.ncd 

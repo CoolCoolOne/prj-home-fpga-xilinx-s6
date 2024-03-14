@@ -1,0 +1,94 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\FPGA\ISE_14_7\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3
+-s 2 -n 3 -fastpaths -xml melt01.twx melt01.ncd -o melt01.twr melt01.pcf -ucf
+sp6.ucf
+
+Design file:              melt01.ncd
+Physical constraint file: melt01.pcf
+Device,package,speed:     xc6slx16,ftg256,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock sys_clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+A0          |        11.890(R)|      SLOW  |         5.139(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+DB0         |        11.445(R)|      SLOW  |         5.092(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+DB1         |        11.163(R)|      SLOW  |         4.910(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+DB2         |        12.016(R)|      SLOW  |         5.224(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+DB3         |        11.962(R)|      SLOW  |         5.209(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+DB4         |        10.994(R)|      SLOW  |         4.732(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+DB5         |        10.789(R)|      SLOW  |         4.760(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+DB6         |        11.483(R)|      SLOW  |         5.202(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+DB7         |        10.753(R)|      SLOW  |         4.673(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+E           |         9.864(R)|      SLOW  |         4.406(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+RW          |        10.483(R)|      SLOW  |         4.697(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+led_1       |        11.599(R)|      SLOW  |         4.942(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+led_2       |        11.671(R)|      SLOW  |         5.132(R)|      FAST  |sys_clk_BUFGP     |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock sys_rst_n to Pad
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                   | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)  | Phase  |
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+A0          |        11.748(R)|      SLOW  |         5.401(R)|      FAST  |sys_rst_n_IBUF_BUFG|   0.000|
+DB0         |        11.609(R)|      SLOW  |         5.388(R)|      FAST  |sys_rst_n_IBUF_BUFG|   0.000|
+DB1         |        11.844(R)|      SLOW  |         5.470(R)|      FAST  |sys_rst_n_IBUF_BUFG|   0.000|
+DB2         |        12.273(R)|      SLOW  |         5.692(R)|      FAST  |sys_rst_n_IBUF_BUFG|   0.000|
+DB3         |        12.338(R)|      SLOW  |         5.727(R)|      FAST  |sys_rst_n_IBUF_BUFG|   0.000|
+DB4         |        11.378(R)|      SLOW  |         5.195(R)|      FAST  |sys_rst_n_IBUF_BUFG|   0.000|
+DB5         |        11.557(R)|      SLOW  |         5.260(R)|      FAST  |sys_rst_n_IBUF_BUFG|   0.000|
+DB6         |        12.233(R)|      SLOW  |         5.684(R)|      FAST  |sys_rst_n_IBUF_BUFG|   0.000|
+DB7         |        12.156(R)|      SLOW  |         5.634(R)|      FAST  |sys_rst_n_IBUF_BUFG|   0.000|
+RW          |        11.507(R)|      SLOW  |         5.276(R)|      FAST  |sys_rst_n_IBUF_BUFG|   0.000|
+led_1       |        11.673(R)|      SLOW  |         5.349(R)|      FAST  |sys_rst_n_IBUF_BUFG|   0.000|
+led_2       |        11.769(R)|      SLOW  |         5.394(R)|      FAST  |sys_rst_n_IBUF_BUFG|   0.000|
+------------+-----------------+------------+-----------------+------------+-------------------+--------+
+
+Clock to Setup on destination clock sys_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+sys_clk        |    3.559|         |         |         |
+sys_rst_n      |    4.629|    4.629|         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Jul 12 23:05:01 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 240 MB
+
+
+
